@@ -18,7 +18,22 @@
         padding-bottom: 3.25rem;
     }
     /*Navbar*/
+
+    .navigation-wrap{
+        text-align: center;
+        background-color: white;
+    }
+
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+    }
+
     /*Banner Design*/
+
+    .top-banner{
+        padding: 6.375rem 0 4.375rem;
+    }
+
     /*Carousel Design*/
 }
 
@@ -28,7 +43,12 @@
     h1{
         font-size: 1.875rem;
     }
+
     /*Navbar*/
+
+    .navigation-wrap .navbar-brand img{
+        width: 10rem;
+    }
     /*Banner Design*/
     /*Carousel Design*/
 }

@@ -8,7 +8,7 @@
 }
 
 #navbarNav a{
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 #navbarNav a:hover{
@@ -167,4 +167,17 @@ p{
     background-size: cover;
     padding: 14.875rem 0 9.375rem;
     
+}
+
+/*Counter Design*/
+
+.counter-section{
+    background-color: black;
+    padding: 2.5rem 0;
+}
+
+.counter-section p{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
