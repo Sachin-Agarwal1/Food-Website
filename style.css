@@ -8,7 +8,7 @@
 }
 
 #navbarNav a{
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 #navbarNav a:hover{
@@ -74,10 +74,10 @@ h5{
 
 p{
     font-size: 1rem;
-    color: white;
+    color: #231E41;
     font-weight: 400;
     line-height: 1.75rem;
-    letter-spacing: 0.625rem;
+    letter-spacing: 0.0625rem;
 }
 
 .main-btn{
@@ -98,4 +98,73 @@ p{
 .main-btn:hover{
     background: transparent;
     color: #f5c332;
+}
+
+.wrapper{
+    padding-top: 6025rem;
+    padding-bottom: 6.25rem;
+}
+
+.text-content{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.counter-section h2,
+.testimonial-section h2,
+.book-food-text h2{
+    color: #f5c332;
+}
+
+/*2 Navbar Design*/
+
+.navigation-wrap.scroll-on{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    z-index: 1000;
+    -wibkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation-wrap .navbar-brand img{
+    width: 10rem;
+}
+
+.navigation-wrap .nav-item{
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+
+.navigation-wrap .navbar-toggler:focus{
+    outline: none;
+    border: unset;
+    box-shadow: none;
+}
+
+.navigation-wrap .nav-link{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #231E41;
+    letter-spacing: 0.0625rem;
+}
+
+.navigation-wrap .main-btn{
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
+
+/*3 Banner Design*/
+
+.top-banner{
+    width: 100%;
+    background-image: url("./images/bg/bg-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 14.875rem 0 9.375rem;
+    
 }

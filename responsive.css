@@ -1,0 +1,34 @@
+@media(max-width: 991px){
+    /* Custom CSS */
+
+    h1{
+        font-size: 2.1875rem;
+    }
+
+    h2{
+        font-size: 1.375rem;
+    }
+
+    .text-content{
+        width: 100%;
+    }
+
+    .wrapper{
+        padding-top: 4.25rem;
+        padding-bottom: 3.25rem;
+    }
+    /*Navbar*/
+    /*Banner Design*/
+    /*Carousel Design*/
+}
+
+@media(max-width: 767px){
+    /* Custom CSS */
+
+    h1{
+        font-size: 1.875rem;
+    }
+    /*Navbar*/
+    /*Banner Design*/
+    /*Carousel Design*/
+}
