@@ -49,6 +49,11 @@
     .navigation-wrap .navbar-brand img{
         width: 10rem;
     }
-    /*Banner Design*/
+
+    /* Story Section */
+    .story-section{
+      height: auto;
+      padding: 3rem 0;
+    }
     /*Carousel Design*/
 }

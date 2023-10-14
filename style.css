@@ -101,7 +101,7 @@ p{
 }
 
 .wrapper{
-    padding-top: 6025rem;
+    padding-top: 6.25rem;
     padding-bottom: 6.25rem;
 }
 
@@ -169,7 +169,7 @@ p{
     
 }
 
-/*Counter Design*/
+/*4 Counter Design*/
 
 .counter-section{
     background-color: black;
@@ -180,4 +180,42 @@ p{
     color: white;
     text-transform: uppercase;
     margin-bottom: 0;
+}
+
+/* 5 About Section */
+
+.food-type{
+    padding-top: 3.25rem;
+}
+
+.food-type ul li{
+    font-size: 1rem;
+    color: #231E41;
+    line-height: 2rem;
+    position: relative;
+    margin-left: 1.875rem;
+}
+
+.food-type ul li::before{
+    position: absolute;
+    left: -2.1875rem;
+    color: #f5c332;
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 Free";
+    content: '\f00c';
+    display: inline-block;
+    font-weight: 900;
+}
+
+/* Story Section */
+
+.story-section{
+    width: 100%;
+    height: 28.125rem;
+    background-image: url(images/bg/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 6.25rem;
+    text-align: center;
 }
