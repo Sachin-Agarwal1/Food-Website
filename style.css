@@ -219,3 +219,70 @@ p{
     padding-top: 6.25rem;
     text-align: center;
 }
+
+/* Explore Food */
+
+.explore-food .card{
+    background: transparent;
+    border-radius: 0.9375rem;
+    border: .125rem dashed #f5c332;
+}
+
+.explore-food .card img{
+    border-radius: 0.9375rem 0.9375rem 0 0;
+    object-fit: cover;
+}
+
+.explore-food .card span{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f5c332;
+    padding-bottom: 1rem;
+    border-bottom: 0.0625rem solid #f5c332;
+}
+
+.explore-food .card span del{
+    color: gray;
+    margin-left: 0.5rem;
+}
+
+/* Testimonial Section */
+
+.testimonial-section{
+    background-image: url(images/bg/bg-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testimonial-section .carousel-item{
+    margin-top: 3rem;
+    padding: 10rem 3.125rem;
+    background-color: white;
+    border-radius: 0.9375rem;
+    text-align: center;
+}
+
+.testimonial-section .carousel-item img{
+    width: 5rem;
+    border-radius: 50%;
+    padding: 0.3125rem;
+    border: 0.125rem solid #f5c332;
+}
+
+.testimonial-section .carousel-item .carousel-caption p{
+    font-size: 1.3125rem;
+    line-height: 2.0625rem;
+    padding: 0.625rem 11%;
+}
+
+.testimonial-section .carousel-indicators{
+    bottom: -4.9125rem;
+}
+
+.testimonial-section .carousel-indicators button{
+    width: .9375rem;
+    height: .9375rem;
+    border-radius: 50%;
+}
