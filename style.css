@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
-
 *{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -285,4 +284,62 @@ p{
     width: .9375rem;
     height: .9375rem;
     border-radius: 50%;
+}
+
+/* Team Section */
+.team .card{
+    background-color: black;
+    border-radius: 0.625rem;
+    border: 0.25rem solid #f5c332;
+    text-align: center;
+}
+
+.team .card img{
+    border-radius: 0.625rem 0.625rem 0 0;
+}
+
+.team h4{
+    color: #f5c332;
+    text-transform: uppercase;
+}
+
+.team h6,
+.team p{
+    color: white;
+}
+
+.team .social-icon i{
+    font-size: 1.125rem;
+    transition: .3s all ease;
+    margin: .3125rem;
+    background-color: #f5c332;
+    color: white;
+    border-radius: 50%;
+    width: 2.1875rem;
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+}
+
+.team .social-icon i:hover{
+    background-color: white;
+    color: #f5c332;
+}
+
+/* Book Food Section */
+.book-food{
+    width: 100%;
+    background: url("images/bg/bg-3.jpg");
+    background-position: 0 3.4945rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 4.375rem 0;
+}
+
+.download-app{
+    width: 100%;
+    background: url("images/bg/bg-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

@@ -35,6 +35,15 @@
     }
 
     /*Carousel Design*/
+
+    .testimonial-section .carousel-item .carousel-caption p{
+        padding: 0;
+        font-size: 1.1rem;
+    }
+
+    .testimonial-section .carousel-indicators{
+        bottom: -3.9125rem;
+    }
 }
 
 @media(max-width: 767px){
@@ -56,4 +65,26 @@
       padding: 3rem 0;
     }
     /*Carousel Design*/
+
+    .testimonial-section.wrapper{
+        padding: 4rem 0 5rem;
+    }
+
+    .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;
+    }
+
+    .testimonial-section .carousel-indicators{
+        bottom: -4.9125rem;
+    }
+
+    /* Footer Link */
+}
+
+@media(max-width: 330px){
+    /* Carousel Design */
+    .testimonial-section .carousel-item{
+        padding: 13rem 3.125rem;
+        font-size: 0.99rem;
+    }
 }
