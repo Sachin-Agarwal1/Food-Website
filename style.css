@@ -343,3 +343,29 @@ p{
     background-size: cover;
     background-position: center;
 }
+
+/* Footer */
+.footer{
+    background-color: black;
+}
+
+.footer .footer-link{
+    font-size: 1rem;
+    color: white;
+    padding: 0 1.875rem;
+}
+
+.footer a{
+    font-size: 1.5rem;
+    color: white;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+.footer .footer-link:hover{
+    color: #f5c332;
+}
+
+.footer a:hover{
+    color: #f5c332;
+}
